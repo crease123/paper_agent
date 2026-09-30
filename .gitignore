@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# literature/ 只入库规则与分类树骨架；论文数据（全文、images/、单篇概要、分类概要）不入库
+literature/**
+!literature/AGENTS.md
+!literature/taxonomy.md
